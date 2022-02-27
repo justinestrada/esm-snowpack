@@ -10,7 +10,7 @@ module.exports = {
     },
     src: "/dist",
   },
-  // plugins: [],
+  plugins: ["@snowpack/plugin-typescript"],
   // installOptions: {},
   // devOptions: {},
   // buildOptions: {},
